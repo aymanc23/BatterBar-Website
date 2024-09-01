@@ -97,12 +97,12 @@ document.addEventListener("DOMContentLoaded", function() {
     };
 
     const categoryImages = {
-        "mini-loaf-cakes": "/Users/aymancharania/Desktop/BatterBar Website/img/loaf.JPG",
-        "regular-loaf-cakes": "/Users/aymancharania/Desktop/BatterBar Website/img/loaf.JPG",
-        "cookies": "/Users/aymancharania/Desktop/BatterBar Website/img/cookies.JPG",
-        "cupcakes": "/Users/aymancharania/Desktop/BatterBar Website/img/cupcake.JPEG",
-        "mini-cheesecakes": "/Users/aymancharania/Desktop/BatterBar Website/img/cheese.JPEG",
-        "cake-pops": "/Users/aymancharania/Desktop/BatterBar Website/img/cakepop2.jpg"
+        "mini-loaf-cakes": "img/loaf.JPG",
+        "regular-loaf-cakes": "img/loaf.JPG",
+        "cookies": "img/cookies.JPG",
+        "cupcakes": "img/cupcake.JPEG",
+        "mini-cheesecakes": "img/cheese.JPEG",
+        "cake-pops": "img/cakepop2.jpg"
     };
 
     function renderMenu(category) {
