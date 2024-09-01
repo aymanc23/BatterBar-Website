@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" context="width-device-width, initial-scale=1.0">
+
+    <title>Batter Bar Website</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+</head>
+
+<body>
+
+    <!--top header section starts-->
+    <div class="top-header">
+        <div class="col-1">
+            <i class='bx bx-envelope'></i>
+            <div class="email">
+                <h4>Email Us</h4>
+                <span>info@gmail.com</span>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="logo">
+                <i class='bx bxs-cake'></i>
+                <box-icon name='cake' type='solid'></box-icon>
+                <h2>Batter Bar</h2>
+
+            </div>
+        </div>
+        <div class="col-1">
+            <i class='bx bx-mobile-alt'></i>
+            <div class="'contact">
+                <h4>Call Us</h4>
+                <span>832-343-2323</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- navigation bar section-->
+    <header class="header">
+        <div class="logo_two">
+            <i class="bx bx-cake"></i>
+            <h2>Batter Bar</h2>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href='./index.html' class="active">Home</a></li>
+                <li><a href='./about.html'>About Us</a></li>
+                <li><a href='./menu.html'>Menu & Pricing</a></li>
+                <li><a href='./service.html'>Services</a></li>
+                <li><a href='./contact.html'>Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <i class="bx bx-menu" id="menuBtn"></i>
+    </header>
+
+    <!--home page-->
+    <section class="home">
+        <div class="content">
+            <h4>Scrumptious</h4>
+            <h1>Batter Bar</h1>
+            <h3>Best Desserts in Houston</h3>
+
+            <div class="others">
+                <div class="button">
+                    <a href='./about.html'>
+                        <button>Read More</button>
+                    </a>
+                </div>
+                <!-- Video player section -->
+                <div class="video-container">
+                    <div class="player" id="play-button">
+                        <i class="bx bx-play-circle"></i>
+                        <span>Play Video</span>
+                    </div>
+                    <div class="video-player" id="video-player">
+                        <video id="video" controls>
+                            <source src="/Users/aymancharania/Desktop/BatterBar Website/img/batterbarvideo.MP4"
+                                type="video/mp4">
+
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--about us-->
+    <section class="about section">
+        <h5>About Us</h5>
+        <h1>Welcome to Batter Bar</h1>
+
+        <div class='about-row'>
+            <div class="col-1">
+                <img src="/Users/aymancharania/Desktop/BatterBar Website/img/about2.jpg" alt="">
+            </div>
+            <div class="col-2">
+                <h4>FILL THIS IN LATER</h4>
+                <p class="text">
+                    FILL THIS IN LATER
+                </p>
+
+                <div class="details">
+                    <div class="col-3">
+                        <img src="/Users/aymancharania/Desktop/BatterBar Website/img/delicious.-removebg-preview.png"
+                            alt="">
+                        <h3>100% Delicious</h3>
+                        <p>Fill This in Later</p>
+                    </div>
+
+                    <div class="col-3">
+                        <img src="/Users/aymancharania/Desktop/BatterBar Website/img/loved-removebg-preview.png" alt="">
+                        <h3>Loved by Everyone</h3>
+                        <p> Fill this in Later</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--number section-->
+
+    <body class="home-page">
+        <section class="number section">
+            <div class="number-row">
+                <div class="num-col">
+                    <div class="icon">
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <div class="name">
+                        <h4>Our Experience</h4>
+                        <span class="num" data-value="100">0000</span>
+                    </div>
+                </div>
+                <div class="num-col">
+                    <div class="icon">
+                        <i class="bx bx-plus"></i>
+                    </div>
+                    <div class="name">
+                        <h4>Dessert Specialist</h4>
+                        <span class="num" data-value="100">0000</span>
+                    </div>
+                </div>
+                <div class="num-col">
+                    <div class="icon">
+                        <i class="bx bx-check"></i>
+                    </div>
+                    <div class="name">
+                        <h4>Complete Project</h4>
+                        <span class="num" data-value="100">0000</span>
+                    </div>
+                </div>
+                <div class="num-col">
+                    <div class="icon">
+                        <i class="bx bx-group"></i>
+                    </div>
+                    <div class="name">
+                        <h4>Happy Client</h4>
+                        <span class="num" data-value="100">0000</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+
+    <!-- menu section -->
+    <section style='padding-top: 5rem;' class="menu section">
+        <h5>Menu & Pricing</h5>
+        <h1>Explore Our Desserts</h1>
+
+        <div class="menu-row">
+            <div class="title">
+                <div class="col-1">
+                    <button class="btn active" data-category="mini-loaf-cakes">Mini Loaf Cakes</button>
+                    <button class="btn" data-category="regular-loaf-cakes">Regular Loaf Cakes</button>
+                    <button class="btn" data-category="cookies">Cookies</button>
+                    <button class="btn" data-category="cupcakes">Cupcakes</button>
+                    <button class="btn" data-category="mini-cheesecakes">Mini Cheesecakes</button>
+                    <button class="btn" data-category="cake-pops">Cake Pops</button>
+                </div>
+            </div>
+
+            <div class="container">
+                <img id="category-image" src="" alt="Dessert Image" class="category-image">
+                <div id="menu-items" class="menu-items">
+                    <!-- Items will be dynamically inserted here based on the selected category -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--discount section-->
+
+    <section class="discount">
+        <div class="disc-row">
+            <div class="disc-col">
+                <div class="details">
+                    <h4>Cakes</h4>
+                    <p>Describe the Cake here until it does not end right here to fill out extra words. thank
+                        you.</p>
+
+                    <a href="#">Read More <i class='bx bx-arrow-to-right'></i></a>
+                </div>
+            </div>
+
+            <div class="disc-col">
+                <div class="details">
+                    <h4>Cookies</h4>
+                    <p>Describe the cookies here until it does not end right here to fill out extra words. thank
+                        you.</p>
+
+                    <a href="#">Read More <i class='bx bx-arrow-to-right'></i></a>
+                </div>
+            </div>
+
+            <div class="disc-col">
+                <div class="details">
+                    <h4>Cheesecakes</h4>
+                    <p>Describe the cheesecake here until it does not end right here to fill out extra words. thank
+                        you.</p>
+
+                    <a href="#">Read More <i class='bx bx-arrow-to-right'></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="summer">
+            <h2>10% OFF FIRST ORDER</h2>
+            <a href='./contact.html' class="active">Order Now</a>
+
+        </div>
+    </section>
+
+    <!--members section-->
+    <section class="member section">
+        <h5>Team Members</h5>
+        <h1>Out Master Chef</h1>
+
+        <div class='member-row'>
+            <div class="member-col">
+                <div class="image">
+                    <img src="/Users/aymancharania/Desktop/BatterBar Website/img/shree.jpeg" alt="">
+                </div>
+                <div class="social">
+                    <div class="box">
+                        <a href="https://www.facebook.com/p/-Batter-Bar-Bakery--100063664116465/?_rdr" target="_blank">
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="https://www.instagram.com/batterbar.htx/" target="_blank">
+                            <i class="bx bxl-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="details">
+                    <h3>Shree Patel</h3>
+                    <p>Designation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--special section-->
+    <section class="special section">
+        <h5>Special Desserts</h5>
+        <h1 class="text">Super Scrumpcious Desserts</h1>
+
+        <div class="special-row">
+            <p>this is just so i have some structure to check if it si white so i can make sure the structure and all is
+                good</p>
+            <div class="buttons">
+                <div class="more">
+                    <button class="shop">Shop Now</button>
+                </div>
+                <button class="read">Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <!--footer section-->
+    <section class="footer">
+        <div class="footer-row">
+            <div class="footer-col_one">
+                <div class="box">
+                    <div class="icon">
+                        <i class="bx bxs-cake"></i>
+                        <h2>Batter Bar</h2>
+                    </div>
+                    <p>Fill this in later after asking shree about what goes here.
+                        This will be a filler section for now because i dont know what
+                        to put in this section for now.
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-col_two">
+                <div class="col-1">
+                    <h5>Get In Touch</h5>
+                    <span><i class='bx bx-envelope'></i>batterbarbakery@gmail.com</span>
+                    <span><i class='bx bx-phone'></i>540-760-4335</span>
+
+                    <div class="social">
+                        <div class="box">
+                            <a href="https://www.facebook.com/p/-Batter-Bar-Bakery--100063664116465/?_rdr"
+                                target="_blank">
+                                <i class="bx bxl-facebook"></i>
+                            </a>
+                        </div>
+                        <div class="box">
+                            <a href="https://www.instagram.com/batterbar.htx/" target="_blank">
+                                <i class="bx bxl-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <h5>Quick Links</h5>
+                    <a href="#"><i class='bx bx-right-arrow-alt'></i>Home</a>
+                    <a href="#"><i class='bx bx-right-arrow-alt'></i>About Us</a>
+                    <a href="#"><i class='bx bx-right-arrow-alt'></i>Our Services</a>
+                    <a href="#"><i class='bx bx-right-arrow-alt'></i>Meet The Team</a>
+                    <a href="#"><i class='bx bx-right-arrow-alt'></i>Contact Us</a>
+                </div>
+
+                <div class="col-1">
+                    <h5>Newsletter</h5>
+                    <p>Sign up for our newsletter.</p>
+                    <div class="inputBox">
+                        <input type="text" placeholder="Your Email">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_bottom">
+            <span>&copy; BATTER BAR All Rights Reserved.</span>
+        </div>
+
+        <div class="top_button">
+            <a href="#"><i class='bx bx-chevrons-up'></i></a>
+        </div>
+    </section>
+
+    <script src="/Users/aymancharania/Desktop/BatterBar Website/js/script.js"></script>
+
+</body>
+
+</html>
