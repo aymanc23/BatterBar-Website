@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <div class="info">
                             <h4>${item.name}</h4>
                             <p class="price">${item.price}</p>
-                            <p>Information about the ${item.name} Here</p>
+
                         </div>
                     </div>
                 `;
